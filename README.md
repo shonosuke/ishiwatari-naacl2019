@@ -25,6 +25,12 @@ cd exp
 ./run_wordnet.sh # Run experiments on Wordnet [Noraset+ 2017]
 ```
 
+## Reproduce BLEU Scores in the paper
+```bash
+# After training
+./test.sh
+```
+
 ## Contact
 Shonosuke Ishiwatari
 
