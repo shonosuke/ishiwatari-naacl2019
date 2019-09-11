@@ -26,10 +26,18 @@ cd exp
 ```
 
 ## Reproduce BLEU Scores in the paper
+### Wikidata Dataset
 ```bash
 # After training
 ./test.sh
 ```
+
+### Wordnet, Urban Dictionay, and Oxford Dictionary Datasets
+```bash
+# After training
+tail -3 train.log
+```
+
 
 ## Contact
 Shonosuke Ishiwatari
